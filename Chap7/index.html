@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+<title>Examples from Chapter 7</title>
+</head>
+
+<body>
+
+Chapter 7 Programs:
+
+<ul>
+
+<li><a href="textureCube1.html">textureCube1</a>: texture map of a gif image onto cube. Note some browsers such as Chrome will not allow the use of an external file as texture image. Program also displays the image on the right.</li>
+
+<li><a href="textureCubev2.html">textureCubev2</a>: texture mapping checkerboard onto cube</li>
+
+<li><a href="textureCubev3.html">textureCubev3</a>: texture map onto cube using two texture images multiplied together in fragment shader</li>
+
+<li><a href="textureCubev4.html">textureCubev4</a>: texture map with two texture units. First applies checkerboard, second a sinusoid.
+
+<li><a href="textureSquare.html">textureSquare</a>: demo of aliasing with different texture parameters.</li>
+
+<li><a href="reflectionMap.html">reflectionMap</a>: reflection map of a colored cube onto another cube rotating inside of it</li>
+
+<li><a href="reflectionMap2.html">reflectionMap2</a>: reflection map of a sphere inside a cube.</li>
+
+<li><a href="reflectingCube.html">reflectingCube</a>: similar to relectionMap but lets the user rotate the object instead of appearing to rotate the texture cube.</li>
+
+<li><a href="reflectingSphere.html">reflectingSphere</a>: similar to relectionMap2 but lets the user rotate the object instead of appearing to rotate the texture cube.</li>
+
+<li><a href="bumpMap.html">bumpMap</a>: bump map of a single square with a square "bump" in the middle and a rotating light</li>
+
+<li><a href="bumpMap2.html">bumpMap2</a>: bump map using 256 x 256 version of the honolulu data. One rotation moves the light source and the other rotates the single polygon that is bump mapped,</li>
+
+<li><a href="hatImage1.html">hatImage1</a>: image of the sombero function with colors assigned to the y values and the resulting image as texture mapped to a square</li>
+
+<li><a href="hatImage2.html">hatImage2</a>: image of the sombero function with colors assigned to the y values and the resulting image as texture mapped to a square</li>
+
+<li><a href="hawaiiImage.html">hawaiiImage</a>: image of the Hawaii with colors assigned to the y values and the resulting image as texture mapped to a square</li>
+
+<li><a href="hawaiiIsobel.html">hawaiiIsobel</a>: image display of height data from hawaii using a texture map with edge
+enhancement in the fragment shader</li>
+
+<li><a href="render1.html">render1</a>: Sierpinski gasket rendered to a texture and then display on a square.</li>
+
+<li><a href="render1v2.html">render1v2</a>: renders a triangle to a texture and displays it by a second rendering on a smaller square so blue clear color is visible around rendered square</li>
+
+<li><a href="render3.html">render3</a>: renders Sierpinski gasket and diffuses result over successive renderings</li>
+
+<li><a href="render4.html">render4</a>: similar to render2 but renders only a single triangle</li>
+
+<li><a href="render5.html">render5</a>: same as render4 but only renders the triangle on the first rendering</li>
+
+<li><a href="particleDiffusion.html">particleDiffusion</a>: buffer ping ponging of 50 particles initially placed randomly and then moving randomly with their previous positions diffused as a texture.</li>
+
+<li><a href="pickCube.html">pickCube</a>: rotating cube rendered off screen with solid colors for each face which are used to identify which face the mouse is clicked on. Color of face is logged onto the console.</li>
+
+<li><a href="pickCube2.html">pickCube2</a>: rotating cube with lighting. When mouse is clicked, the face name (front, back, right, left, top, bottom, background) is logged onto the console.</li> 
+
+<li><a href="pickCube3.html">pickCube3</a>: changes the material properties so each face has a color but lighting still still causes varying shades across each face. Name of face color is displayed in window instead of on console</li>
+
+<li><a href="pickCube4.html">pickCube4</a>: similar to pickCube2 but displays name of picked face in window</li>
+
+<li><a href="cubet.html">cubet</a>: rotating translucent cube. Hidden-surface removal can be toggled on and off.</li>
+
+</ul>
+
+
+</body>
+</html>
